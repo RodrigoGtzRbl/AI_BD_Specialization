@@ -13,7 +13,7 @@ If the comands from https://github.com/coqui-ai/TTS?tab=readme-ov-file are not w
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the below for details.
 
 MIT License
 

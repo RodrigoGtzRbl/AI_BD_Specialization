@@ -1,0 +1,15 @@
+
+services:
+
+  tts-server:
+    build: ./tts-server
+    image: kamehouse0/tts-server:latest
+    container_name: tts-server
+    hostname: tts-server
+    ports:
+      - "65432:65432"
+    volumes: 
+      - ../shared:/app/shared
+    environment:
+      - PYTHONUNBUFFERED=1 
+
